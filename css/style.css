@@ -268,11 +268,8 @@ margin:20px 0;
         display: none;
     }
     .container3 button{
-        width:100px;
-        font-size: 14px;
-    }
-    .container3 .cards i,h2,p,button{
-margin: 5px 0;
+        width:130px;
+        font-size: 12px;
     }
 }
 
