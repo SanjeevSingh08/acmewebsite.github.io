@@ -9,6 +9,10 @@ body {
   font-size: 16px;
   line-height: 22px;
 }
+h3{
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
 .navigation {
   position: fixed;
   left: 0px;
@@ -225,6 +229,7 @@ body {
   max-width: 1060px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 20px;
 }
 .section-press-img {
   max-width: 1060px;
@@ -237,68 +242,64 @@ body {
   margin-right: auto;
 }
 
-
-
 .features-section {
   width: 100%;
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.features-section h2 {
+.wcontainer h2 {
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 22px;
   line-height: 36px;
   font-weight: 400;
   text-align: center;
-
 }
-.features-text {
+.features-text , .pricing-text {
   margin-bottom: 68px;
   font-size: 19px;
   line-height: 22px;
   font-weight: 300;
   text-align: center;
-
-
 }
 .w-container {
   display: flex;
   flex-direction: row;
   width: 100%;
+  
+
 }
+
 .row-layout {
   width: 50%;
   position: relative;
-   text-align: left;
-    min-height: 1px;
-    padding-left: 10px;
-    padding-right: 10px
+  text-align: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.small-icon{
-    height: 40px;
-    width:40px;
-    margin-bottom: 10px;
+
+.small-icon {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
 }
+
 .img-layout {
   width: 50%;
-  padding:10px;
+  padding: 10px;
 }
-.row1-img {
-}
-.row1-content {
-}
+
 .web {
   margin-top: 30px;
 }
-.web h3{
-    margin-top: 0px;
-    margin-bottom: 15px;
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: 600;
-} 
-
+.web h3 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
 
 .row1-img img {
   width: 100%;
@@ -307,83 +308,243 @@ body {
 .row2-img img {
   width: 100%;
 }
-.small-features{
-    margin-top: 70px;
+.small-features {
+  margin-top: 70px;
+}
+.small-features-items{
+  margin-bottom:30px;
+  margin:0 10px;
+
+}
+.small-features h3 , .small-features p{
+  margin-top:0;
+  margin-bottom:10px;
+}
+
+.pricing-section{
+  background-color: #dde7ed;
+  padding-top: 70px;
+    padding-bottom: 70px
+}
+.price-features-items{
+  min-height: 300px;
+  padding:15px 18px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #2b2b2b;
+  width:25%;
+  margin:0 10px;
+
+  
+}
+
+.price-features-items h3{
+  margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+  ;
+}
+.price{
+  margin-bottom: 8px;
+    font-size: 14px;
+}
+.added-features{
+  margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.inactive{
+  color: #c7c5c5;
+    text-decoration: line-through;
+}
+.in-pricing{
+  display: block;
+    margin-top: 0;
+    width:100%;
+ 
+}
+.divider{
+  height: 1px;
+  margin:15px 0;
+  background-color: #3e5c50;
+}
+.button{
+  display: inline-block;
+  width: 100%;
+    padding: 11px 0;
+    border-radius: 3px;
+    background-color: #000;
+    box-shadow: 0 2px 1px 0 rgb(0 0 0 / 12%);
+    -webkit-transition: background-color 300ms ease, box-shadow 300ms ease, color 300ms ease;
+    transition: background-color 300ms ease, box-shadow 300ms ease, color 300ms ease;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.additional-contact{
+  margin-top: 21px;
+    text-align: center;
+}
+.sliders-section{
+  width:100%;
+padding-top: 70px;
+padding-bottom: 70px;
+}
+.sliders h2{
+  margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.slide-content{
+  display: flex;
+
+}
+.arrow{
+  width: 20%;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+    color: #bdbdbd;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow img{
+  width:30%;
+}
+.info{
+  text-align: center;
+  padding:0 10%;
+}
+.info img{
+  width: 70px;
+    margin-bottom: 13px;
+    border-radius: 100%;
+}
+.work{
+  margin:0;
+  }
+.text{
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 300;
+
+}
+.name{
+  font-weight: 900;
+  margin:0;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1082px) {
-    .section {
-      max-width: 800px;
-    }
-    .wcontainer {
-      max-width: 768px;
-    }
-    .nav-menu-items {
-      display: none;
-    }
-    .menu {
-      display: flex;
-    }
+  .section {
+    max-width: 800px;
   }
-  @media (max-width: 840px) {
-    .section-main {
-      margin-top: 50px;
-    }
-  
-    .section {
-      padding: 0 px;
-      margin: 30px 0;
-      flex-direction: column;
-    }
-    .section-text {
-      width: 100%;
-      text-align: center;
-      height: 40%;
-      margin-bottom: 30px;
-    }
-    .graph {
-      width: 100%;
-      height: 60%;
-    }
-    .section-text p {
-      font-size: 17px;
-    }
-    .btn1 {
-      width: 6.5rem;
-      height: 3rem;
-      font-size: 1rem;
-    }
-    .btn2 {
-      width: 7.5rem;
-      height: 3rem;
-      font-size: 1rem;
-    }
-    .navigation {
-      height: 50px;
-    }
-
-
-    .w-container{
-        flex-direction: column;
-        width: 100%;
-        padding: 0;
-       text-align: center;
-    }
-    .row-layout {
-        width: 100%;
-        position: relative;
-        padding: 0;
-        
-      }
-      .img-layout {
-        width: 100%;
-        padding: 0;
-      }
-      .web{
-        margin-top: 0;
-        margin-bottom: 30px;
-        text-align: center;
-     
-      }
+  .wcontainer {
+    max-width: 768px;
   }
+  .nav-menu-items {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+@media (max-width: 840px) {
+  .section-main {
+    margin-top: 50px;
+  }
+.price-features-items{
+width:80%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 34px;
+}
+  .section {
+    padding: 0px;
+    margin: 30px 0;
+    flex-direction: column;
+  }
+  .section-text {
+    width: 100%;
+    text-align: center;
+    height: 40%;
+    margin-bottom: 30px;
+  }
+  .graph {
+    width: 100%;
+    height: 60%;
+  }
+  .section-text p {
+    font-size: 17px;
+  }
+  .btn1 {
+    width: 6.5rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  .btn2 {
+    width: 7.5rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  .navigation {
+    height: 50px;
+  }
+
+  .w-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .row-layout {
+    width: 100%;
+    position: relative;
+    padding: 0;
+  }
+  .img-layout {
+    width: 100%;
+    padding: 0;
+  }
+  .web {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
