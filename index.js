@@ -23,5 +23,49 @@ function close() {
   document.querySelector(".close").style.display = "none";
   document.querySelector(".menu").style.background = "none";
 
-  console.log("done");
+ 
+}
+
+
+
+var slider=document.querySelectorAll(".info");
+var counter=0;
+var k=slider.length;
+console.log(slider);
+
+
+
+for(var i=0;i<slider.length;i++){
+  k=100*i;
+  l=k+"%"
+  
+  slider[i].style.left=l;
+}
+
+const gonext=()=>{
+  counter++
+  sliding()
+  
+}
+const goprev= ()=>{
+  counter--
+  sliding()
+}
+
+function sliding(){
+  for(var i=0;i<slider.length;i++){
+  console.log(counter)
+  if(counter===-4){
+    counter=0;
+  }
+  else if( counter===1){
+  counter=-3
+  }
+ 
+    k=counter*100
+    l=k+"%"
+    j="translateX"+"("+l+")"
+    console.log(j)
+slider[i].style.transform=j
+  }
 }
