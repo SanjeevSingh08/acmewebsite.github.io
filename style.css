@@ -391,6 +391,7 @@ h3 {
   width: 100%;
   padding-top: 70px;
   padding-bottom: 70px;
+ 
   
 }
 .sliders h2 {
@@ -577,6 +578,9 @@ transition: 1s;
     margin-top: 0;
     margin-bottom: 30px;
     text-align: center;
+  }
+  .slide-content{
+    min-height: 470px;
   }
 }
 
