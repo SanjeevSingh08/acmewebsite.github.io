@@ -143,9 +143,11 @@ h3 {
 }
 .graph {
   width: 48%;
+
 }
 .graph img {
-  width: 100%;
+  width: 95%;
+  margin:0 2.5%;
 }
 .section-text h1 {
   position: relative;
@@ -393,16 +395,17 @@ h3 {
 }
 .sliders h2 {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
   text-align: center;
+  overflow-y:auto;
 }
 .slide-content {
   display: flex;
   position: relative;
-  height: 353px;
+  min-height: 353px;
   
 overflow: hidden;
   justify-content: center;
@@ -411,7 +414,7 @@ overflow: hidden;
 
 }
 .arrow {
-  width: 3%;
+  width: 2%;
   height: 30px;
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
@@ -420,7 +423,7 @@ overflow: hidden;
   display: flex;
 position: absolute;
 z-index: 80000;
- 
+
 
 }
 .arrow-right{
@@ -446,7 +449,7 @@ z-index: 80000;
 align-self: center;
 justify-self: center;
   position: absolute; 
-transition: 2s;
+transition: 1s;
 }
 .info img {
   width: 70px;
@@ -469,6 +472,30 @@ transition: 2s;
   font-weight: 900;
   margin: 0;
 }
+.clients-section{
+
+    background-color: #a1bfd4;
+}
+.clients-content{
+  padding: auto;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.clients-image{
+  width:16.1%;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1082px) {
   .section {
@@ -552,3 +579,5 @@ transition: 2s;
     text-align: center;
   }
 }
+
+

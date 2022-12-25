@@ -31,7 +31,7 @@ function close() {
 var slider=document.querySelectorAll(".info");
 var counter=0;
 var k=slider.length;
-console.log(slider);
+
 
 
 
@@ -48,7 +48,7 @@ const gonext=()=>{
   
 }
 const goprev= ()=>{
-  counter--
+  counter--;
   sliding()
 }
 
